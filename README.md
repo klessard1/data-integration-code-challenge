@@ -9,7 +9,7 @@ Include A README with instructions on how to build/run the app. Use the README t
 why you chose the technologies you did. Notes on design patterns, challenges, or aspects
 of your stack that you find interesting are also appreciated!
 
-Provided is a `docker-compose-yml` file to help you start kafka. You are welcome to use other message services instead.
+Provided is a `docker-compose-yml` file to help you start kafka. You are welcome to use other messaging services instead.
 
 ### Requirements
 1. Create an API with an endpoint or operation that we can call and pass data to, save the request to a database. The shape of the data and the storage mechanism are up to you.
