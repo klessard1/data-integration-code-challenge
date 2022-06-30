@@ -13,6 +13,7 @@ Provided is a `docker-compose-yml` file to help you start kafka. You are welcome
 
 ### Requirements
 1. Create an API with an endpoint or operation that we can call and pass data to, save the request to a database. The shape of the data and the storage mechanism are up to you.
-2. Publish API data to a topic/queue.
-3. Add a consumer to your API to consume from the topic/queue and perform an operation of your choice with the message, .i.e. log to console, write to database, write to file.
-4. Create a minimal frontend that calls your api.
+2. Create a sh script or add to README the commands to create topic/queue.
+3. Publish API data to a topic/queue.
+4. Add a consumer to your API to consume from the topic/queue and perform an operation of your choice with the message, .i.e. log to console, write to database, write to file.
+5. Create a minimal frontend that calls your api.
