@@ -1,0 +1,16 @@
+NOTES APP 
+For my notes app, I chose to use Node, TypeScript, Express, and Postgres.
+I chose these because of the high performance, scalability, and reduction in loading time. 
+
+TO START notes-app-ui: In the notes-app-ui directory, npm start will launch the UI of the app at http://localhost:5001
+This UI is a very simple design but easy to use. I chose to do a notes app because it's so straightforward and allows for a simple database table.
+
+TO START notes-app-server: In the notes-app-ui directory, npm start will running the server at localhost:5000 which hits a Postgres API. 
+I chose Postgres because it's user friendly and scales well.
+
+Once the server and UI are running, you can interact with the notes by inputting a note title and note content. Clicking submit will send that data to the notes table in Postgres and display the note on the UI grid.
+Clicking notes will allow the user to make changes to note content. 
+
+-- this was as far as I got with the requirements in the suggested 2 hour time window. To continue, I could integrate my application with AWS SQS to produce and consume messages. Amazon SQS is a very reliable service which locks your messages during processing, so that multiple producers can send and multiple consumers can receive messages at the same time. This is my first time delving into research on queues and streams and it's really interesting! I got as far as creating an AWS account and installing packages, but ran into road blocks with SSO permissions on my machine.
+
+I enjoyed this challenge and the opportunity to learn about AWS SQS. 
